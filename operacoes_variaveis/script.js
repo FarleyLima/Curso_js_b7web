@@ -17,3 +17,10 @@ var result2 = number4 + number5 - number3
 console.log(result2)
 
 // Operações com strings
+
+var text1 = 'Honda'
+var text2 = 'Cb 500x'
+
+var juncao = text1 + ' ' + text2
+
+console.log(juncao)
