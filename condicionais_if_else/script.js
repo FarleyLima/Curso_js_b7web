@@ -39,3 +39,33 @@ if (person1 > person2) {
 } else if (person3 > person2 && person3 > person1) {
   console.log(`person3 é mais rico de todos, pois ele tem R$ ${person3}.`)
 }
+
+// DESMISTIFICANDO O IF
+
+var valorDinheiro = 20000
+var volksGol = valorDinheiro > 25000
+
+if (valorDinheiro > 25000) {
+  console.log(
+    `Com o valor de R$ ${valorDinheiro} é possivel comprar o carro Gol`
+  )
+} else {
+  console.log(
+    `Com o valor de R$ ${valorDinheiro} NÂO é possivel comprar o carro Gol`
+  )
+}
+
+// EXEMPLOS BÁSICOS
+
+var money = 3500
+
+var viagemOpc1 = money >= 4000 && money < 5000
+var viagemOpc2 = money >= 6000 && money <= 8000
+
+if (viagemOpc1) {
+  console.log('Da para VIAJAR sem hotel!!!')
+} else if (viagemOpc2) {
+  console.log('Dar para viajar com hospedagem :D')
+} else {
+  console.log(`O  valor de R$ ${money} não é suficiente!`)
+}
