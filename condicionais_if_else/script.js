@@ -55,7 +55,7 @@ if (valorDinheiro > 25000) {
   )
 }
 
-// EXEMPLOS BÁSICOS
+// EXEMPLOS BÁSICOS #1
 
 var money = 3500
 
