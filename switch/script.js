@@ -19,3 +19,24 @@ switch (profession) {
     console.log('fardamento não definido!')
     break
 }
+
+let carros = 'gol'
+
+console.log(`${carros} a cor disponivel é:!`)
+
+switch (carros) {
+  case 'ferrari':
+    console.log('cor do carro é vermelho')
+    break
+
+  case 'porche':
+    console.log('cor do carro é preto')
+    break
+
+  case 'lamborguini':
+    console.log('cor do carro é verde')
+    break
+  default:
+    console.log('carro não definido!')
+    break
+}
