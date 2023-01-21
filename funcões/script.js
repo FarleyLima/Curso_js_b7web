@@ -55,3 +55,56 @@ function nameComplet(name, lastname) {
 
 let completo = nameComplet('Joca', 'Moloca')
 console.log(completo)
+
+// === FUÇÃO COM RETORNO CONDICIONAL === //
+
+//criando a função
+function valorCarro(preco) {
+  if (preco >= 23000) {
+    return true
+  } else {
+    return false
+  }
+}
+
+//executando a função
+var compra = valorCarro(30000)
+console.log(compra)
+
+// EXEMPLO #2
+
+//criando a função
+function salarioMin(valor) {
+  if (valor >= 1310) {
+    return true
+  } else {
+    return false
+  }
+}
+
+//executando a função
+var valor = 1500
+var seuSalario = salarioMin(valor)
+if (seuSalario) {
+  console.log(`O valor do seu salário é R$ ${valor}`)
+} else {
+  console.log('Você recebeu menos que um salário mínimo')
+}
+
+// EXEMPLO #3
+
+function boletimE(nota) {
+  if (nota >= 7) {
+    return 'aprovado'
+  } else {
+    return 'reprovado'
+  }
+}
+
+let nota = 20
+let avalicao = boletimE(nota)
+if (avalicao) {
+  console.log(`Sua nota foi ${nota}, PARABÉNS!!! Voçê passou :)`)
+} else {
+  console.log(`Sua nota foi ${nota}, que PENA, você não passou :(`)
+}
