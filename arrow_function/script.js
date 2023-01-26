@@ -43,3 +43,16 @@ const nomeCompleto = (primeiroNome, sobreNome, segundoNome, ultimoNome) => {
   return juncao
 }
 console.log(nomeCompleto('Francisco ', 'Farley ', 'Lima ', 'Silva'))
+
+// --- VARIÁVEL DENTRO DE FUNÇÕES --- //
+
+let count = 0
+function add() {
+  //let count = 0
+  count++
+}
+
+add()
+add()
+
+console.log(count)
