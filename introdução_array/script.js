@@ -25,3 +25,17 @@ let opc = list2[3]
 console.log(opc)
 
 // ----     OPERAÇÕES BÁSICAS COM ARRAY     ---- //
+
+var pecasAuto = ['radiador', 'pistão', 'parafusos', 'filto de óleo']
+
+// para saber a quantidade de itens de uma array ( lista ), deve chamar a lista .length
+
+console.log(`O total de itens de peças é ${pecasAuto.length}`)
+
+// para adicionar um item na lista deve usar o push. doloca o nome da lista segido .push.
+
+var pecasAuto2 = ['radiador', 'pistão', 'parafusos', 'filto de óleo']
+
+pecasAuto2.push('velas')
+
+console.log(`O total de itens de peças da lista 2 é ${pecasAuto2.length}`)
