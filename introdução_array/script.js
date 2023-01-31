@@ -39,3 +39,33 @@ var pecasAuto2 = ['radiador', 'pistão', 'parafusos', 'filto de óleo']
 pecasAuto2.push('velas')
 
 console.log(`O total de itens de peças da lista 2 é ${pecasAuto2.length}`)
+
+// ---- EXERCÍCIOS ---- \\
+
+// #1 NO ARRAY ABAIXO, QUAL O NÚMERO QUE PAGA A FERRARI?
+
+let carros = ['BMW', 'AUDI', 'PORCHE', 'FERRARI', 'LAMBORGHINI']
+// RESOLUÇÃO \\
+console.log(`O numero 3 é referente ao carro da marca: ${carros[3]}`)
+
+// #2 TROQUE A LAMBORGHINI OR MCLAREM
+
+// RESOLÇÃO \\
+carros.pop('LAMBORGHINI')
+carros.push('MCLAREM')
+console.log(carros)
+
+// #3 ADICINE A MASSERATI A LISTA
+
+// RESOLUÇÃO \\
+
+carros.push('MASSERATI')
+console.log(carros)
+
+// #4 EXIBA QUANTOS INTENS TEM NA LISTA
+
+// RESOLUÇÃO \\
+
+console.log(
+  `Trabalhamos coms com total de ${carros.length} marcas de carros, são elas: ${carros}`
+)
