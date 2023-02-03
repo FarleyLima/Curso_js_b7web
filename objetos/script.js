@@ -114,3 +114,17 @@ console.log(`Nova loja de veículos ${loja.nome}, venha conferir nosso estoque!`
 
 var carro3 = loja.veiculos[1].valor
 console.log(`Chevrolet S10 z10 custa R$ ${carro3} mil. `)
+
+// ---- FUÇÕES DENTRO DE OBJETOS ---- \\
+
+var venda = {
+  produto: 'Creatina',
+  quantidade: 1,
+  preço: 50,
+
+  compra: function () {
+    return `Compra de ${venda.quantidade} ${venda.produto} no valor de R$ ${venda.preço}`
+  }
+}
+
+console.log(venda.compra())
