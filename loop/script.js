@@ -36,3 +36,34 @@ for (let i in marcasMotos) {
 for (let marca of marcasMotos) {
   console.log(marca)
 }
+
+// LOOP WHILE \\
+// exemplo #1
+
+let numero = 1
+// neste exemplo ele vai dizer que em a condicional for menor e igual a 10 ele vai rodar 10x.
+while (numero <= 10) {
+  console.log(`O número da vez é ${numero}`)
+  numero++
+}
+
+// exte loop for é mesma coisa do loop while, só que o loop while ele é desmembrado.
+for (numero = 1; numero <= 12; numero++) {
+  console.log(`O número da vez é ${numero}`)
+}
+
+// EXERCÍCIOS
+// #1 faça um loop que mostre todas as  frutas
+
+let frutas = ['Maçã', 'Banana', 'Morango', 'Uva', 'Goiaba']
+for (let f = 0; f < frutas.length; f++) {
+  console.log(`Temos  ${frutas[f]}`)
+}
+
+// #2 conte de 1 a 350 com loop while
+
+let contar = 1
+while (contar <= 350) {
+  console.log(`O número é ${contar}`)
+  contar++
+}
