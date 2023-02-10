@@ -69,3 +69,26 @@ console.log(carros)
 console.log(
   `Trabalhamos coms com total de ${carros.length} marcas de carros, são elas: ${carros}`
 )
+
+// #5 CRIE UMA LISTA ARRAY E EXIBA A LISTA COMO UMA STRINGUE E FAZZ COM 3 EXEMPLOS DIFERENTES.
+
+// RESOLUÇÃO \\
+
+let objetos = ['Pc', 'Oculos', 'Relógio', 'Carteira']
+// trasformando a lista array em uma unica estring.
+
+console.log(objetos.join(' '))
+
+// EXEMPLO #2
+
+console.log(objetos.join(' => '))
+
+// EXEMPLO #3
+
+console.log(objetos.join(' ;P '))
+
+// ALTERANDO OS VALORES DO ARREY ATRAVÉS DO INDEXADOR
+
+objetos[1] = 'Caneta'
+
+console.log(objetos)
