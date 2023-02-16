@@ -92,3 +92,40 @@ console.log(objetos.join(' ;P '))
 objetos[1] = 'Caneta'
 
 console.log(objetos)
+
+// ORDENÇÃO DO ARRAY
+
+let fruits = ['Manga', 'Laranja', 'tangerina', 'Caju', 'Acerola']
+
+//fruits.sort()
+
+fruits.reverse()
+
+console.log(fruits)
+
+// EXEMPLO DE ORDENAÇÃO UTILIZANDO OBJETOS
+
+let creatinas = [
+  { marca: 'Max', gramas: 300 },
+  { marca: 'Black S', gramas: 100 },
+  { marca: 'Dark', gramas: 150 }
+]
+// FORMA MAIS SIMPLIFICADA DE ORDENAR AS CREATINAS PELA QUANTIDADE DE GRAMAS.
+creatinas.sort((a, b) => a.gramas - b.gramas)
+
+console.log(creatinas)
+
+/*
+creatinas.sort((a, b) => {
+  if (a.gramas > b.gramas) {
+    return 1
+  } else if (a.gramas < b.gramas) {
+    return -1
+  } else {
+    return 0
+  }*/
+
+/*
+  return a.gramas - b.gramas // SIMPLIFICANDO A FUNÇÃO ACIMA. VAI DAR O MESMO RESULTADO
+  
+})*/
