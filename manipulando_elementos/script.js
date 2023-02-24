@@ -9,4 +9,18 @@ function clicar() {
 
   ul.children[1].innerHTML = '<h2>Comprimido<h2>'
   // neste caso foi alterado o 2º item d lista.
+
+  // ADICIONANDO UM NOVO ELEMENTO
+  let newLI = document.createElement('li')
+  newLI.innerText = 'adicionando novo item'
+
+  ul.appendChild(newLI)
+
+  // FUNÇÕES PARA UTILIZAR NO MANIPULAMENTO
+  const teste2 = document.querySelector('#txt')
+  const ul1 = teste2.querySelector('ul')
+
+  ul1.children[0].append('Teste')
+
+  /*ul1.children[1].innerHTML += ' doidEIRA'*/
 }
