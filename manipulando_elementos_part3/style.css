@@ -1,6 +1,5 @@
 * {
   margin: 0;
-
   padding: 0;
 
   box-sizing: border-box;
@@ -9,39 +8,30 @@
 }
 
 body {
+  background-color: #868688;
+
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
-strong {
-  color: #ff0000;
-
-  text-transform: uppercase;
-
-  margin-top: 10px;
-}
-
-#txt,
-#txt2 {
-  width: 200px;
-  height: auto;
-
-  background-color: #cccccc;
+#lista1,
+#lista2 {
+  background-color: aqua;
+  width: 300px;
+  margin: 10px 0px;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#txt {
-  margin-bottom: 20px;
+#lista1,
+#lista2 ul {
+  padding: 10px 0px;
 }
 
-#txt ul {
-  list-style: none;
-}
-
-#txt2 ul {
-  list-style: none;
+button {
+  padding: 5px 7px;
 }
