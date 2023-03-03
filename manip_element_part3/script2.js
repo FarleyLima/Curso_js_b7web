@@ -6,4 +6,13 @@ function click() {
   newButton.innerHTML = 'clique aqui!'
 
   list1.before(newButton)
+
+  // CRIANDO UMA NOVA LISTA
+  let novalista = document.createElement('ul')
+
+  for (let i = 0; i < 5; i++) {
+    let novalista = document.createElement('li')
+    novalista.innerHTML = 'Novo item' + i
+    novalista.append(novalista)
+  }
 }
