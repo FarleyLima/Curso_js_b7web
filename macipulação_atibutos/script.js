@@ -13,11 +13,11 @@ function clicar() {
 function clicar() {
   const input1 = document.querySelector('.input')
 
-  /*if (input1.hasAttribute('type')) {
+  if (input1.hasAttribute('type')) {
     alert('Função existente')
   } else {
     alert('Função Não encontrada')
-  }*/
+  }
 }
 // FUNÇÃO PARA ALTERAR O placeholder
 function clicar0() {
@@ -31,11 +31,11 @@ function clicar3() {
   const input3 = document.querySelector('.input3')
   input3.setAttribute('type', 'text')
   // o alerta é só para praticar o hasAttribute
-  /*if (input3.hasAttribute('type')) {
+  if (input3.hasAttribute('type')) {
     alert('Exibindo código')
   } else {
     alert('ERRO!!!')
-  }*/
+  }
 }
 
 // ALTERANDO O TEXTO DO BOTÃO PARA  QUANDO CLICAR ELE MOSTRAR A SENHA E ALTERAR O TEXTO DO BOTÃO.
@@ -51,4 +51,14 @@ function clicar3() {
     input3.setAttribute('type', 'text')
     botao2.innerHTML = 'Ocultar senha'
   }
+}
+
+// LATERANDO A COR DO BODY DIRETO DO JS
+
+function clicar4() {
+  const botaoCor = document.querySelector('body')
+
+  botaoCor.style.backgroundColor = '#CCceee'
+  botaoCor.style.textTransform = 'uppercase'
+  botaoCor.style.fontWeight = 'bold'
 }
