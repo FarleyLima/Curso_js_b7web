@@ -53,12 +53,31 @@ function clicar3() {
   }
 }
 
-// LATERANDO A COR DO BODY DIRETO DO JS
+// ALTERANDO A COR DO BODY DIRETO DO JS
 
 function clicar4() {
   const botaoCor = document.querySelector('body')
 
-  botaoCor.style.backgroundColor = '#CCceee'
+  botaoCor.style.backgroundColor = '#476678'
   botaoCor.style.textTransform = 'uppercase'
   botaoCor.style.fontWeight = 'bold'
+  botaoCor.style.color = '#ffff'
+}
+
+// TRABALHANDO COM CLASSES
+
+function clicar5() {
+  const botaoCor2 = document.querySelector('.txt2')
+
+  botaoCor2.style.backgroundColor = '#000'
+  botaoCor2.style.color = '#ffff'
+  botaoCor2.style.padding = '10px'
+
+  if (botaoCor2.classList.contains('txt2')) {
+    botaoCor2.classList.remove('txt2')
+    botaoCor2.classList.add('xx010')
+  } else {
+    botaoCor2.classList.add('txt2')
+    botaoCor2.classList.remove('xx010')
+  }
 }
